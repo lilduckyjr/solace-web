@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119" height="152.41" viewBox="0 0 119 152.41">
+  <g id="Stocks" transform="translate(-0.069 0.5)">
+    <g id="iconfinder_linegraph_up_4177622" transform="translate(5)">
+      <path id="Path_23" data-name="Path 23" d="M106.813,102.931H9.764V5.882A3.882,3.882,0,1,0,2,5.882V106.813A3.882,3.882,0,0,0,5.882,110.7H106.813a3.882,3.882,0,1,0,0-7.764Z" transform="translate(-2 -2)" fill="#1a1515" stroke="#1a1515" stroke-width="1"/>
+      <path id="Path_24" data-name="Path 24" d="M9.878,66.23a3.882,3.882,0,0,0,2.562-.97L44.816,36.61l9.045,9.084a3.882,3.882,0,0,0,5.512,0L83.636,21.238V31.292a3.882,3.882,0,1,0,7.764,0V11.882A3.882,3.882,0,0,0,87.518,8H68.108a3.882,3.882,0,1,0,0,7.764H78.162l-21.7,21.7-8.89-8.929a3.882,3.882,0,0,0-5.318,0L7.316,59.592a3.882,3.882,0,0,0-.349,5.474A3.882,3.882,0,0,0,9.878,66.23Z" transform="translate(9.532 15.292)" fill="#1a1515" stroke="#1a1515" stroke-width="1"/>
+    </g>
+    <text id="STOCKS-2" data-name="STOCKS" transform="translate(0.069 143.91)" fill="#1a1515" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">STOCKS</tspan></text>
+  </g>
+</svg>

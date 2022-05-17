@@ -1,0 +1,337 @@
+/* TABLE OF CONTENTS */
+
+/* 1. TYPOGRAPHY AND COLORS */
+/* 2. ANIMATIONS */
+/* 3. NAVBAR / HEADER */
+/* 4. MAIN / CTA */
+/* 5. FEATURES */
+/* 6. PRICING */
+/* 7. FAQ + REVIEW */
+/* 8. SUCCESS */
+/* 9. PARTNERSHIPS */
+/* 10. CONTACT */
+/* 11. MEDIA QUERIES */
+
+/* TYPOGRAPHY AND COLORS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+@keyframes hover {
+    0%, 100% {top: -30px;}
+    50% {top: 10px;}
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+:root {
+    --light-blue: #1278DD;
+    --dark-blue: #0E334C;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.header-img {
+    position: absolute;
+    z-index: -9999;
+    width: 100vw;
+    height: auto;
+    margin-top: -10%;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--dark-blue);
+    margin-bottom: 32px;
+}
+
+.lblue {
+    color: var(--light-blue);
+}
+
+.dblue {
+    color: var(--dark-blue);
+}
+
+
+/* NAVBAR */
+
+nav {
+    margin-top: 24px;
+    width: 100%;
+}
+
+nav img {
+    width: 100px;
+    height: auto;
+    margin-right: 32px;
+}
+
+.nav-item {
+    padding: 16px;
+}
+
+nav a {
+    color: white;
+}
+
+.navbar-brand, .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    margin: 0 !important;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 50px;
+    color: white;  
+    margin: 0; 
+    transition: 0.5s ease;
+}
+
+.dash {
+    transition: transform .5s;
+}
+
+
+/* CTA */
+
+.cta-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+.col-hover {
+    max-width: 50%;
+    animation: hover 7s ease infinite;
+}
+
+.col-hover img {
+    max-width: 120%;
+}
+
+.col-intro {
+    color: white;
+}
+
+.col-intro h3 {
+    font-weight: 700;
+}
+
+
+/* FEATURES */
+.features {
+    background-color: white; 
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.377);
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-right: 32px;
+}
+
+.muchmore {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.features h5 {
+    color: var(--light-blue);
+}
+
+
+/* FAQ*/
+.faq-row {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.card {
+    margin-bottom: 16px;
+}
+
+.success-row {
+    margin-bottom: 32px;
+}
+
+.partners {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.partners img {
+    max-width: 50%;
+    border-radius: 100%;
+    transition: transform .5s;
+}
+
+.partner-title {
+    margin-top: 128px;
+}
+
+.success-row img {
+    transition: transform .5s;
+}
+
+.partners img:hover, .success-row img:hover, .dash:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.carousel-item{
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.377);
+    padding: 5%;
+}
+
+.carousel-indicators li{
+    color: black;
+}
+
+.carousel-item img {
+    display: inline-block;
+    max-width: 10%;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.user p {
+    margin: 0;
+}
+
+.user-info {
+    display: inline-block;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+footer {
+    background-color: var(--light-blue);
+    height: 64px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-dash {
+    display: none;
+}
+
+@media only screen and (max-width: 2560px) {
+    .features-title {
+        margin-top: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 1450px) {
+    .col-intro {
+        color: var(--dark-blue);
+        margin-top: -20%;
+    }
+
+    .cta-row {
+        margin-bottom: 0;
+    }
+
+    .features-title {
+        margin-top: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 1030px) {
+    .col-intro {
+        color: var(--dark-blue);
+        margin-top: 5%;
+    }
+
+    .header-img {
+        margin-top: -25%;
+    }
+
+    .cta-row {
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .col-hover {
+        display: none;
+    }
+
+    .col-intro {
+        color: var(--dark-blue);
+    }
+
+    .features-row, .features-row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 64px;
+        padding: 16px;
+    }
+
+    .faq-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviews-title {
+        margin-top: 128px;
+    }
+
+    .partnership-row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+        align-content: center;
+    }
+
+    .partners {
+        width: 200px;
+        height: auto;
+    }
+
+    .success-row img {
+        display: none;
+    }
+
+    .navbar-toggler, .collapse {
+        visibility: hidden;
+    }
+
+    .mobile-dash {
+        display: inline-block;
+    }
+}

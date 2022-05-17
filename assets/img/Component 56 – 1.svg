@@ -1,0 +1,23 @@
+<svg id="Component_56_1" data-name="Component 56 – 1" xmlns="http://www.w3.org/2000/svg" width="90.756" height="102.594" viewBox="0 0 90.756 102.594">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff1949;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ff1949;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <path id="Path_14" data-name="Path 14" class="cls-1" d="M15,26v7.892A34.631,34.631,0,0,0,37.188,26Z" transform="translate(28.405 68.702)"/>
+  <path id="Path_15" data-name="Path 15" class="cls-2" d="M5,16v7.892c0,9.865,7.892,11.838,7.892,11.838S20.784,59.4,44.459,59.4" transform="translate(-1.054 39.243)"/>
+  <path id="Path_16" data-name="Path 16" class="cls-1" d="M90.81,61.189H78.972c0-24.622-11.838-35.513-11.838-35.513C55.3,53.3,15.838,33.567,15.838,61.189H4V45.4C4,17.784,27.675,2,47.4,2c15.784,0,19.73,7.892,19.73,7.892,15.784,0,23.675,19.73,23.675,35.513Z" transform="translate(-4 -2)"/>
+  <path id="Path_17" data-name="Path 17" class="cls-1" d="M22.865,21H18.919a5.919,5.919,0,0,0,0,11.838h3.946a5.919,5.919,0,0,0,0-11.838Z" transform="translate(22.513 53.972)"/>
+  <path id="Path_18" data-name="Path 18" class="cls-2" d="M16,43.621H35.73A15.784,15.784,0,0,0,51.513,27.838V16" transform="translate(31.351 39.243)"/>
+  <path id="Path_19" data-name="Path 19" class="cls-1" d="M30.892,34.73H23V15h7.892a7.89,7.89,0,0,1,7.892,7.892v3.946A7.89,7.89,0,0,1,30.892,34.73Z" transform="translate(51.972 36.297)"/>
+</svg>
